@@ -267,13 +267,13 @@
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000', GradientType=1);
 		}
 
-		#cspio-subscribe-btn {
-			background: transparent;
+		.clear-btn {
+			background: transparent !important;
 			border: 1px solid #fff !important;
-			color: #fff;
+			color: #fff !important;
 		}
 
-		#cspio-subscribe-btn:hover {
+		.clear-btn:hover {
 			background: rgba(255, 255, 255, 0.2);
 			color: #fff;
 		}
@@ -308,8 +308,7 @@
 			-->
 			<h1 id="cspio-headline">Appleseed</h1>
 
-			<div id="cspio-description">A collaborative decision making platform
-				<br/>Coming soon</div>
+			<div id="cspio-description">A collaborative decision making platform</div>
 
 			<form id="cspio-form" action="//farm.us16.list-manage.com/subscribe/post?u=770f3d75ce1ec81934ea2a781&amp;id=19b3da1dc9" method="post">
 				<div id="cspio-field-wrapper">
@@ -318,7 +317,7 @@
 							<div class="input-group">
 								<input id="cspio-email" name="EMAIL" class="form-control input-lg form-el" type="email" placeholder="Email" required/>
 								<span class="input-group-btn">
-									<button id="cspio-subscribe-btn" type="submit" class="btn btn-lg btn-primary form-el noglow">Notify Me</button>
+									<button id="cspio-subscribe-btn" type="submit" class="clear-btn btn btn-lg btn-primary form-el noglow">Notify Me</button>
 								</span>
 							</div>
 						</div>
@@ -343,6 +342,8 @@
 				</a>
 			</div>
 
+
+			<a href="https://appleseed.vote" class="clear-btn btn btn-lg btn-primary form-el noglow">Try the Beta</a>
 
 		</div>
 		<!-- end of #cspio-content -->
